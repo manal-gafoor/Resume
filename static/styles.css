@@ -1,0 +1,317 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Intro Page*/
+
+/* Navbar */
+.navbar {
+  padding: 1rem 0rem;
+}
+.navbar-dark .navbar-brand {
+  font-family: 'Fleur De Leah', cursive;
+  font-size: 35px;
+}
+.nav-item {
+  font-size: 15px;
+  padding-right: 20px;
+}
+
+/* Intro Section*/
+#intro {
+  background-color: black;
+  color: white;
+}
+.intro {
+  margin: auto;
+   width: 68%;
+}
+.name {
+  margin-top: 5rem;
+}
+.name-font {
+  font-family: 'Libre Baskerville', serif;
+}
+.name-div {
+  margin: auto;
+}
+.name-link {
+  margin: 4rem 0;
+}
+.links {
+  color: white;
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1.5px solid white;
+  border-radius: 25%;
+}
+.links:hover {
+  color: #a8a8a8;
+}
+.pic-one {
+  width: 350px;
+
+}
+
+/* About Me Section */
+#aboutme {
+  background-color: white;
+  color: #333333;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.aboutme-div {
+  padding: 2rem 0;
+  width: 68%;
+  margin: auto;
+}
+.colored-text {
+  background-color: #333333;
+  color: white;
+  margin: 2rem 0 1rem;
+  text-align: center;
+  width: 150px;
+}
+.details {
+  line-height: 2.25;
+  padding: 2rem 0;
+}
+.details-col {
+  margin: 2rem 0;
+}
+.valign {
+  vertical-align: top;
+}
+.lang-span {
+  color: #b8b8b8;
+}
+.pic-two {
+  margin: auto;
+  position: relative;
+  left: 35px;
+  bottom: 20px;
+   width: 230px;
+}
+
+/* Footer Section */
+hr {
+  border-top: 1px dotted black;
+  width: 100%;
+  margin: 0;
+}
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+
+/* Education Page*/
+
+/* Skills Section */
+#skills {
+  background-color: #333333;
+  color: white;
+  padding: 0.5rem 0 2rem;
+}
+ul {
+  padding-left: 30px;
+}
+.power-div {
+  margin: auto;
+  width: 78%;
+}
+.powers {
+  text-align: center;
+  margin: 30px 0 15px;
+}
+.container {
+  width: 85%;
+  background-color: white;
+  color: #333333;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px black;
+  padding-bottom: 10px;
+  margin: 20px 0 25px;
+}
+.headings {
+  font-size: 20px;
+  margin: 1rem 0;
+  padding-top: 20px;
+}
+span {
+  font-size: 15px;
+}
+.skills {
+  margin-bottom: 20px;
+}
+.skill-details {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin: auto;
+}
+.bar {
+  position: relative;
+  border: 2px solid #333333;
+  border-radius: 20px;
+  width: 90%;
+}
+.bar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #333333;
+}
+.skill-icon {
+  margin-right: 10px;
+}
+
+/* Animations */
+#python-bar {
+  animation: python-fill 2s forwards;
+}
+@keyframes python-fill {
+  100% {width: 80%;}
+}
+#csharp-bar {
+  animation: c-fill 2s forwards;
+}
+@keyframes c-fill {
+  100% {width: 75%;}
+}
+#flutter-bar {
+  animation: python-fill 2s forwards;
+}
+#html-bar {
+  animation: python-fill 2s forwards;
+}
+#bootstrap-bar {
+  animation: bootstrap-fill 2s forwards;
+}
+@keyframes bootstrap-fill {
+  100% {width: 70%;}
+}
+/*#flask-bar {
+  animation: flask-fill 2s forwards;
+}
+@keyframes flask-fill {
+  100% {width: 60%;}
+} */
+
+/* Education Section */
+.education {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.edu-title {
+  margin-top: 20px;
+}
+.edu-div {
+  margin: auto;
+  border: 2px solid #333333;
+  border-radius: 3%;
+  box-shadow: 0 10px 20px #333333;
+  width: 55%;
+  margin-top: 50px;
+  padding: 2rem;
+}
+.cert {
+  font-size: 18px;
+}
+
+/* Projects Section*/
+#projects {
+   background-color: #333333;
+  color: white;
+  margin-top: 60px;
+}
+.projects {
+  padding: 3rem;
+  width: 80%;
+  margin: auto;
+}
+.project-images {
+  width: 250px;
+  margin: 2rem auto;
+  box-shadow: 0px 10px 15px black;
+}
+.project-images-ph {
+  height: 300px;
+  margin: 2rem auto;
+}
+.project-note {
+  padding-top: 2rem;
+}
+
+/*Contact Page */
+#contact {
+  background-color: #333333;
+  color: white;
+  font-size: 15px;
+}
+.contact-div {
+  padding: 1rem;
+  width: 70%;
+}
+.cont-heading {
+  padding: 18px 0;
+}
+.cont-a {
+  color: white;
+}
+form label {
+  display: block;
+  padding: 15px 0 0;
+}
+form input#name,
+form input#email,
+form input#phone {
+  width: 320px;
+  background-color: #fafafa;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  font-size: 15px;
+}
+form textarea#message {
+  width: 320px;
+  height: 80px;
+  background-color: #fafafa;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  font-size: 15px;
+}
+form input#submit {
+  display: block;
+  border-radius: 3px;
+  border:1px solid #d8d8d8;
+  padding: 8px;
+  margin: 15px 0 0;
+  font-weight:bold;
+  text-align: center;
+  color: #000000;
+  background-color: #f4f4f4;
+  height: 40px;
+  width: 80px;
+  position: relative;
+  left: 120px;
+}
+form input#submit:hover{
+  cursor: pointer;
+  border:1px solid #c1c1c1;
+  background-color: #dbdbdb;
+  }
+.flash {
+  background-color: #FBB0B0;
+  padding: 10px;
+  width: 400px;
+}
