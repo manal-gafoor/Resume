@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, url_for, flash
-from flask_wtf import FlaskForm
+from flask.ext.wtf import FlaskForm
 from wtforms import StringField, TextAreaField, SubmitField, EmailField
 from wtforms.validators import DataRequired, Email, ValidationError
 from flask_mail import Message, Mail
